@@ -1,0 +1,16 @@
+theme = "hugo-now-ui"
+baseurl = "http://pcf.savero.net"
+languageCode = "en-us"
+title = "Prague Christian Fellowship"
+
+[[menu.main]]
+    name = "Components"
+    url = "/components/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    weight = 1
+[[menu.main]]
+    name = "Community groups"
+    pre = "<i class='fas fa-users fa-lg'></i>"
+    url = "#"
+    weight = 4
+    identifier = "groups"

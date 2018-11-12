@@ -1,0 +1,137 @@
+<footer class="footer footer-big"  data-background-color="gray">
+  <div class="container-fluid">
+
+    <div class="content">
+      <div class="row">
+
+        <div class="col-md-4">
+          <a href="#pablo"><h5>{{ .Title }}</h5></a>
+          <p>Building a Family of God to Extend the Kingdom of God</p>
+          <h5>Subscribe to Newsletter</h5>
+          <p>
+            Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
+          </p>
+          <form class="form form-newsletter" method="" action="">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email..." data-cip-id="jQuery342845647">
+            </div>
+
+            <button type="button" class="btn btn-primary btn-icon btn-round" name="button">
+              <i class="now-ui-icons ui-1_email-85"></i>
+            </button>
+          </form>
+        </div>
+        <div class="col-md-3">
+          <h5>Community groups</h5>
+          <ul class="links-vertical">
+
+            {{ range sort (where .Pages "Section" "community-groups").ByWeight }}
+               <li><a href="{{ .URL | relLangURL }}">{{ .Title }} <span class="badge badge-neutral">{{ .Params.grouptype }}</span></a></li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5>Ministries</h5>
+
+          <ul class="links-vertical">
+            <li>
+              <a href="#pablo">
+                 Worship team
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                Local outreach
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                 IHOP
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                 Soaking room
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                 MOPS
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                 SOZO
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                 Art gate
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                 Overflow worship
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                 Foreign missions
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>About us</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="#pablo">
+                 What We Believe
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                 Our History
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                Czech Covering (KS)
+              </a>
+            </li>
+            <li>
+              <a href="#pablo">
+                Pastoral Team
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <ul class="social-buttons">
+      <li>
+        <a href="#pablo" class="btn btn-icon btn-neutral btn-facebook btn-lg">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#pablo" class="btn btn-icon btn-neutral btn-instagram btn-lg">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#pablo" class="btn btn-icon btn-neutral btn-youtube btn-lg">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </li>
+    </ul>
+
+    <div class="copyright pull-center">
+      Copyright &copy; <script>document.write(new Date().getFullYear())</script>2018 Creative Tim All Rights Reserved.
+    </div>
+  </div>
+</footer>

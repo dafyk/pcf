@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Group on Prague Christian Fellowship</title>
+    <link>http://pcf.savero.net/tags/group/</link>
+    <description>Recent content in Group on Prague Christian Fellowship</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://pcf.savero.net/tags/group/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>APCF Sunday services</title>
+      <link>http://pcf.savero.net/community-groups/pcf-sunday-services/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://pcf.savero.net/community-groups/pcf-sunday-services/</guid>
+      <description>PCF sunday services content</description>
+    </item>
+    
+    <item>
+      <title>Monday marvellers</title>
+      <link>http://pcf.savero.net/community-groups/monday-marvellers-hg/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://pcf.savero.net/community-groups/monday-marvellers-hg/</guid>
+      <description>Monday marvellers hg content</description>
+    </item>
+    
+  </channel>
+</rss>

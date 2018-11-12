@@ -1,0 +1,3 @@
+[submodule "themes/nowui"]
+	path = themes/nowui
+	url = https://github.com/cboettig/hugo-now-ui/
